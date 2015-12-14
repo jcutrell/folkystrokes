@@ -1,0 +1,11 @@
+.btn {
+  &-order {
+    background: $brand-primary;
+    color: #FFF;
+    padding: 8px 14px !important;
+    &:hover {
+      color: #FFF;
+      background: darken($brand-primary, 20%);
+    }
+  }
+}

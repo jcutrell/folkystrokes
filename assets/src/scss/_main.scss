@@ -1,0 +1,149 @@
+html,body {
+  min-height: 100%;
+  line-height: 2;
+}
+body {
+  background-color: #FFFEF5;
+  background: linear-gradient( 0deg, #DBC999, #FFFEF5 );
+  font-family: $font-family-serif;
+}
+*[class*="col-"] {
+  img {
+    max-width: 100%;
+  }
+}
+.slick {
+  &-track {
+    display: flex;
+    align-items: center;
+    max-height: 90vh;
+  }
+  &-slide {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &:focus {
+      outline: none;
+    }
+    img {
+      max-width: 80%;
+      margin: 0 auto;
+      flex: 1;
+    }
+  }
+}
+.slick-next {
+  right: 25px;
+}
+.slick-prev {
+  left: 25px;
+}
+.painting-tile {
+  cursor: pointer;
+  width: 100%;
+  @media only screen and (min-width: 768px){
+    width: 50%;
+  }
+  @media only screen and (min-width: 1140px){
+    width: 33.33333333%;
+  }
+  /*@media only screen and (min-width: 1320px){*/
+    /*width: 25%;*/
+  /*}*/
+  /*&[data-id="11"],
+  &[data-id="4"],
+  &[data-id="12"],
+  &[data-id="13"],
+  &[data-id="15"]
+  {
+    @media only screen and (min-width: 1140px){
+      width: 66.666666666%;
+    }
+    @media only screen and (min-width: 1320px){
+      width: 50%;
+    }
+  }
+  */
+  img {
+    padding: 10px;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+.overlay {
+  position: fixed;
+  background: rgba(0,0,0,0.8);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  &.show {
+    padding-top: 8vh;
+    height: 100%;
+    opacity: 1;
+  }
+}
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  text-align: center;
+  font-weight: 100;
+  line-height: 50px;
+  font-size: 2em;
+  z-index: 9999;
+  &:hover {
+    background: #FFF;
+    color: $brand-primary;
+  }
+}
+.primary-site-nav {
+  margin: 0;
+  a {
+    display: inline-block;
+    padding: 0 14px;
+  }
+}
+.services {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    border-left: 2px solid darken(#DBC999, 10%);
+    padding: 20px;
+    margin: 20px 0;
+  }
+}
+svg {
+  path {
+    fill: $brand-primary;
+  }
+  .flower {
+    animation: rotateFlower 3s cubic-bezier(0.250, 0.250, 0.000, 1.000);
+    transform-origin: 50% 50%;
+    transition: transform 1s;
+  }
+}
+.logo {
+  &:hover {
+    .flower {
+      transform: rotateZ(-360deg);
+    }
+  }
+}
+@keyframes rotateFlower {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
