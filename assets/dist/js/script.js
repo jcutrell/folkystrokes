@@ -26,4 +26,8 @@
       $(".overlay").removeClass("show");
     }
   });
+
+  $("#bg-video").vide({
+    mp4: "/assets/dist/video/primary-bg.mp4"
+  });
 })();

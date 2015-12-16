@@ -5119,14 +5119,12 @@ h6,
     background: #ca1108; }
 
 header {
-  padding: 30px 0;
+  padding: 180px 0;
   line-height: 5rem;
-  background: url(../img/header-bg.jpg);
+  /*background: url(../img/header-bg.jpg);*/
   background-position: left 50%;
-  background-size: 300%;
-  position: relative;
-  -webkit-animation: moveBg 180s linear;
-          animation: moveBg 180s linear; }
+  background-size: cover;
+  position: relative; }
   header:after {
     position: absolute;
     top: 0;
@@ -5134,15 +5132,38 @@ header {
     width: 100%;
     height: 100%;
     background-color: #FCF9ED;
-    opacity: .94;
+    opacity: .78;
     content: "";
     display: block; }
+  header #bg-video {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute !important; }
   header nav {
     position: relative;
     z-index: 500; }
 
+#bg-video video {
+  z-index: 9999 !important; }
+  #bg-video video > div {
+    z-index: 9999 !important; }
+
 .logo {
-  font-size: 2rem; }
+  font-size: 2rem;
+  min-height: 5rem;
+  padding-bottom: 22.1888314%;
+  position: relative;
+  margin: 0; }
+  .logo a, .logo svg {
+    min-height: 5rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 @-webkit-keyframes moveBg {
   0% {
@@ -5213,24 +5234,7 @@ body {
 
 .painting-tile {
   cursor: pointer;
-  width: 100%;
-  /*@media only screen and (min-width: 1320px){*/
-  /*width: 25%;*/
-  /*}*/
-  /*&[data-id="11"],
-  &[data-id="4"],
-  &[data-id="12"],
-  &[data-id="13"],
-  &[data-id="15"]
-  {
-    @media only screen and (min-width: 1140px){
-      width: 66.666666666%;
-    }
-    @media only screen and (min-width: 1320px){
-      width: 50%;
-    }
-  }
-  */ }
+  width: 100%; }
   @media only screen and (min-width: 768px) {
     .painting-tile {
       width: 50%; } }

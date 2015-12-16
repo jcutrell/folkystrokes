@@ -42,7 +42,7 @@
           <?php echo file_get_contents("assets/dist/img/logo.svg"); ?>
         </a></h1>
       </div>
-      <menu class="col-sm-8 text-right primary-site-nav">
+      <menu class="col-sm-8 text-md-right text-center primary-site-nav">
         <nav>
           <a href="/about.php">About</a>
           <a href="/order.php" class="btn btn-order">Order Now</a>
@@ -50,4 +50,6 @@
       </menu>
     </div>
   </nav>
+  <div id="bg-video" data-vide-bg="mp4: /assets/dist/video/primary-bg.mp4, poster: /assets/dist/img/header-bg.jpg"
+  data-vide-options="posterType: jpg, loop: true, muted: true, position: 0% 0%"></div>
 </header>

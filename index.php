@@ -1,9 +1,10 @@
 <?php include ('header.php'); ?>
       <div class="masonry">
 <?php
-        $range = range(1, 31);
+        $count = 33;
+        $range = range(1, $count);
         shuffle($range);
-        for ($i=1; $i < 31; $i++){
+        for ($i=1; $i < $count; $i++){
           $img_name = "image-$range[$i]";
         ?>
           <div class="painting-tile" data-id="<?php echo $range[$i]; ?>">
@@ -14,7 +15,7 @@
       <div class="overlay">
         <div class="close-btn">&times;</div>
         <div class="slick">
-          <?php for ($i=1; $i < 31; $i++){
+          <?php for ($i=1; $i < $count; $i++){
             $img_name = "image-" . $range[$i];
           ?>
             <div class="painting-single" data-id="<?php echo $range[$i]; ?>">
