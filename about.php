@@ -22,14 +22,14 @@
       <div class="container">
         <div class="row vm-xs-bottom-2">
           <div class="col-md-6 col-md-offset-3 text-center">
-              <h3 class="u-text-normal h2">Any color, any size, any order. Your custom work of art.</h3>
+              <h3 class="u-text-normal h2 u-text-white">Any color, any size, any order. Your custom work of art.</h3>
           </div>
         </div>
         <div class="row">
           <?php
             $services = array("Paintings on Wood", "Wall Murals", "Home Art &amp; Decor", "Door Hangers", "Indoor &amp; Outdoor Signs", "Seasonal Decorations", "Party Decor", "Abstract Art", "Wedding Art");
             foreach($services as $service){ ?>
-              <div class="col-md-3 col-sm-6 vp-xs-2 text-center text-md-left"><h5 class="u-text-sans-serif"><?php echo $service; ?></h5></div>
+              <div class="col-md-3 col-sm-6 vp-xs-2 text-center text-md-left u-text-white"><h5 class="u-text-sans-serif u-text-white"><?php echo $service; ?></h5></div>
             <?php }
           ?>
         </div>
