@@ -1,6 +1,6 @@
 <?php include ('header.php'); ?>
   <main>
-    <div class="container vp-xs-top-4">
+    <div class="container vp-xs-6">
       <h3>Get In Touch</h3>
       <p>Because every order is custom, the first step to placing an order with me is to get in touch.</p>
       <p>If you'd prefer to talk on the phone, feel free to call me at <a href="tel:13347181507">+1-334-718-1507</a>!</p>
@@ -31,7 +31,7 @@
         <div>
             <textarea placeholder="Order details, requests, and extra information..." class="form-control" name="message" cols="30" rows="10"></textarea>
         </div>
-        <div class="actions vm-xs-top-2">
+        <div class="actions vp-xs-top-2">
             <input type="submit" class="btn btn-primary btn-lg" value="Send">
         </div>
       </form>

@@ -5,7 +5,7 @@ html,body {
 body {
   background-color: #FFFEF5;
   background: linear-gradient( 0deg, #DBC999, #FFFEF5 );
-  font-family: $font-family-serif;
+  font-family: $font-family-sans-serif;
 }
 *[class*="col-"] {
   img {
@@ -67,6 +67,7 @@ body {
     padding-top: 8vh;
     height: 100%;
     opacity: 1;
+    z-index: 999999;
   }
 }
 .close-btn {
@@ -110,7 +111,7 @@ svg {
     fill: $brand-primary;
   }
   .flower {
-    animation: rotateFlower 3s cubic-bezier(0.250, 0.250, 0.000, 1.000);
+    animation: rotateFlower 3s cubic-bezier(0.25, 0.25, 0, 1);
     transform-origin: 50% 50%;
     transition: transform 1s;
   }
@@ -130,3 +131,4 @@ svg {
     transform: rotateZ(360deg);
   }
 }
+

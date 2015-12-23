@@ -27,6 +27,10 @@
       .vp-#{$breakpoint}-bottom-#{$i} {
         padding-bottom: $spacer * $i;
       }
+      .vp-#{$breakpoint}-#{$i} {
+        padding-bottom: $spacer * $i;
+        padding-top: $spacer * $i;
+      }
       .vm-#{$breakpoint}-top-#{$i} {
         margin-top: $spacer * $i;
       }

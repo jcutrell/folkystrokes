@@ -27,8 +27,9 @@
 	<meta property="og:description" content="">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css" media="all">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Kadwa' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Kadwa:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="/assets/dist/css/application.min.css" media="all">
 </head>

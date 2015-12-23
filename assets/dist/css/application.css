@@ -253,7 +253,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #666;
@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Kadwa", sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit; }
+  color: #F74941; }
 
 h1, .h1,
 h2, .h2,
@@ -3586,13 +3586,11 @@ button.close {
   -webkit-overflow-scrolling: touch; }
   .modal.fade .modal-dialog {
     -webkit-transform: translate(0, -25%);
-        -ms-transform: translate(0, -25%);
             transform: translate(0, -25%);
     -webkit-transition: -webkit-transform .3s ease-out;
             transition: transform .3s ease-out; }
   .modal.in .modal-dialog {
     -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
             transform: translate(0, 0); }
 
 .modal-open .modal {
@@ -3684,7 +3682,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3763,7 +3761,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4517,6 +4515,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 1rem; }
   .vp-xs-bottom-1 {
     padding-bottom: 1rem; }
+  .vp-xs-1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem; }
   .vm-xs-top-1 {
     margin-top: 1rem; }
   .vm-xs-bottom-1 {
@@ -4525,6 +4526,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 2rem; }
   .vp-xs-bottom-2 {
     padding-bottom: 2rem; }
+  .vp-xs-2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem; }
   .vm-xs-top-2 {
     margin-top: 2rem; }
   .vm-xs-bottom-2 {
@@ -4533,6 +4537,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 3rem; }
   .vp-xs-bottom-3 {
     padding-bottom: 3rem; }
+  .vp-xs-3 {
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
   .vm-xs-top-3 {
     margin-top: 3rem; }
   .vm-xs-bottom-3 {
@@ -4541,6 +4548,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 4rem; }
   .vp-xs-bottom-4 {
     padding-bottom: 4rem; }
+  .vp-xs-4 {
+    padding-bottom: 4rem;
+    padding-top: 4rem; }
   .vm-xs-top-4 {
     margin-top: 4rem; }
   .vm-xs-bottom-4 {
@@ -4549,6 +4559,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 5rem; }
   .vp-xs-bottom-5 {
     padding-bottom: 5rem; }
+  .vp-xs-5 {
+    padding-bottom: 5rem;
+    padding-top: 5rem; }
   .vm-xs-top-5 {
     margin-top: 5rem; }
   .vm-xs-bottom-5 {
@@ -4557,6 +4570,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 6rem; }
   .vp-xs-bottom-6 {
     padding-bottom: 6rem; }
+  .vp-xs-6 {
+    padding-bottom: 6rem;
+    padding-top: 6rem; }
   .vm-xs-top-6 {
     margin-top: 6rem; }
   .vm-xs-bottom-6 {
@@ -4565,6 +4581,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 7rem; }
   .vp-xs-bottom-7 {
     padding-bottom: 7rem; }
+  .vp-xs-7 {
+    padding-bottom: 7rem;
+    padding-top: 7rem; }
   .vm-xs-top-7 {
     margin-top: 7rem; }
   .vm-xs-bottom-7 {
@@ -4573,6 +4592,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 8rem; }
   .vp-xs-bottom-8 {
     padding-bottom: 8rem; }
+  .vp-xs-8 {
+    padding-bottom: 8rem;
+    padding-top: 8rem; }
   .vm-xs-top-8 {
     margin-top: 8rem; }
   .vm-xs-bottom-8 {
@@ -4581,6 +4603,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 9rem; }
   .vp-xs-bottom-9 {
     padding-bottom: 9rem; }
+  .vp-xs-9 {
+    padding-bottom: 9rem;
+    padding-top: 9rem; }
   .vm-xs-top-9 {
     margin-top: 9rem; }
   .vm-xs-bottom-9 {
@@ -4589,6 +4614,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 10rem; }
   .vp-xs-bottom-10 {
     padding-bottom: 10rem; }
+  .vp-xs-10 {
+    padding-bottom: 10rem;
+    padding-top: 10rem; }
   .vm-xs-top-10 {
     margin-top: 10rem; }
   .vm-xs-bottom-10 {
@@ -4597,6 +4625,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 11rem; }
   .vp-xs-bottom-11 {
     padding-bottom: 11rem; }
+  .vp-xs-11 {
+    padding-bottom: 11rem;
+    padding-top: 11rem; }
   .vm-xs-top-11 {
     margin-top: 11rem; }
   .vm-xs-bottom-11 {
@@ -4605,6 +4636,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 12rem; }
   .vp-xs-bottom-12 {
     padding-bottom: 12rem; }
+  .vp-xs-12 {
+    padding-bottom: 12rem;
+    padding-top: 12rem; }
   .vm-xs-top-12 {
     margin-top: 12rem; }
   .vm-xs-bottom-12 {
@@ -4630,6 +4664,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 1rem; }
   .vp-sm-bottom-1 {
     padding-bottom: 1rem; }
+  .vp-sm-1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem; }
   .vm-sm-top-1 {
     margin-top: 1rem; }
   .vm-sm-bottom-1 {
@@ -4638,6 +4675,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 2rem; }
   .vp-sm-bottom-2 {
     padding-bottom: 2rem; }
+  .vp-sm-2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem; }
   .vm-sm-top-2 {
     margin-top: 2rem; }
   .vm-sm-bottom-2 {
@@ -4646,6 +4686,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 3rem; }
   .vp-sm-bottom-3 {
     padding-bottom: 3rem; }
+  .vp-sm-3 {
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
   .vm-sm-top-3 {
     margin-top: 3rem; }
   .vm-sm-bottom-3 {
@@ -4654,6 +4697,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 4rem; }
   .vp-sm-bottom-4 {
     padding-bottom: 4rem; }
+  .vp-sm-4 {
+    padding-bottom: 4rem;
+    padding-top: 4rem; }
   .vm-sm-top-4 {
     margin-top: 4rem; }
   .vm-sm-bottom-4 {
@@ -4662,6 +4708,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 5rem; }
   .vp-sm-bottom-5 {
     padding-bottom: 5rem; }
+  .vp-sm-5 {
+    padding-bottom: 5rem;
+    padding-top: 5rem; }
   .vm-sm-top-5 {
     margin-top: 5rem; }
   .vm-sm-bottom-5 {
@@ -4670,6 +4719,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 6rem; }
   .vp-sm-bottom-6 {
     padding-bottom: 6rem; }
+  .vp-sm-6 {
+    padding-bottom: 6rem;
+    padding-top: 6rem; }
   .vm-sm-top-6 {
     margin-top: 6rem; }
   .vm-sm-bottom-6 {
@@ -4678,6 +4730,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 7rem; }
   .vp-sm-bottom-7 {
     padding-bottom: 7rem; }
+  .vp-sm-7 {
+    padding-bottom: 7rem;
+    padding-top: 7rem; }
   .vm-sm-top-7 {
     margin-top: 7rem; }
   .vm-sm-bottom-7 {
@@ -4686,6 +4741,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 8rem; }
   .vp-sm-bottom-8 {
     padding-bottom: 8rem; }
+  .vp-sm-8 {
+    padding-bottom: 8rem;
+    padding-top: 8rem; }
   .vm-sm-top-8 {
     margin-top: 8rem; }
   .vm-sm-bottom-8 {
@@ -4694,6 +4752,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 9rem; }
   .vp-sm-bottom-9 {
     padding-bottom: 9rem; }
+  .vp-sm-9 {
+    padding-bottom: 9rem;
+    padding-top: 9rem; }
   .vm-sm-top-9 {
     margin-top: 9rem; }
   .vm-sm-bottom-9 {
@@ -4702,6 +4763,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 10rem; }
   .vp-sm-bottom-10 {
     padding-bottom: 10rem; }
+  .vp-sm-10 {
+    padding-bottom: 10rem;
+    padding-top: 10rem; }
   .vm-sm-top-10 {
     margin-top: 10rem; }
   .vm-sm-bottom-10 {
@@ -4710,6 +4774,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 11rem; }
   .vp-sm-bottom-11 {
     padding-bottom: 11rem; }
+  .vp-sm-11 {
+    padding-bottom: 11rem;
+    padding-top: 11rem; }
   .vm-sm-top-11 {
     margin-top: 11rem; }
   .vm-sm-bottom-11 {
@@ -4718,6 +4785,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 12rem; }
   .vp-sm-bottom-12 {
     padding-bottom: 12rem; }
+  .vp-sm-12 {
+    padding-bottom: 12rem;
+    padding-top: 12rem; }
   .vm-sm-top-12 {
     margin-top: 12rem; }
   .vm-sm-bottom-12 {
@@ -4743,6 +4813,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 1rem; }
   .vp-md-bottom-1 {
     padding-bottom: 1rem; }
+  .vp-md-1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem; }
   .vm-md-top-1 {
     margin-top: 1rem; }
   .vm-md-bottom-1 {
@@ -4751,6 +4824,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 2rem; }
   .vp-md-bottom-2 {
     padding-bottom: 2rem; }
+  .vp-md-2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem; }
   .vm-md-top-2 {
     margin-top: 2rem; }
   .vm-md-bottom-2 {
@@ -4759,6 +4835,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 3rem; }
   .vp-md-bottom-3 {
     padding-bottom: 3rem; }
+  .vp-md-3 {
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
   .vm-md-top-3 {
     margin-top: 3rem; }
   .vm-md-bottom-3 {
@@ -4767,6 +4846,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 4rem; }
   .vp-md-bottom-4 {
     padding-bottom: 4rem; }
+  .vp-md-4 {
+    padding-bottom: 4rem;
+    padding-top: 4rem; }
   .vm-md-top-4 {
     margin-top: 4rem; }
   .vm-md-bottom-4 {
@@ -4775,6 +4857,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 5rem; }
   .vp-md-bottom-5 {
     padding-bottom: 5rem; }
+  .vp-md-5 {
+    padding-bottom: 5rem;
+    padding-top: 5rem; }
   .vm-md-top-5 {
     margin-top: 5rem; }
   .vm-md-bottom-5 {
@@ -4783,6 +4868,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 6rem; }
   .vp-md-bottom-6 {
     padding-bottom: 6rem; }
+  .vp-md-6 {
+    padding-bottom: 6rem;
+    padding-top: 6rem; }
   .vm-md-top-6 {
     margin-top: 6rem; }
   .vm-md-bottom-6 {
@@ -4791,6 +4879,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 7rem; }
   .vp-md-bottom-7 {
     padding-bottom: 7rem; }
+  .vp-md-7 {
+    padding-bottom: 7rem;
+    padding-top: 7rem; }
   .vm-md-top-7 {
     margin-top: 7rem; }
   .vm-md-bottom-7 {
@@ -4799,6 +4890,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 8rem; }
   .vp-md-bottom-8 {
     padding-bottom: 8rem; }
+  .vp-md-8 {
+    padding-bottom: 8rem;
+    padding-top: 8rem; }
   .vm-md-top-8 {
     margin-top: 8rem; }
   .vm-md-bottom-8 {
@@ -4807,6 +4901,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 9rem; }
   .vp-md-bottom-9 {
     padding-bottom: 9rem; }
+  .vp-md-9 {
+    padding-bottom: 9rem;
+    padding-top: 9rem; }
   .vm-md-top-9 {
     margin-top: 9rem; }
   .vm-md-bottom-9 {
@@ -4815,6 +4912,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 10rem; }
   .vp-md-bottom-10 {
     padding-bottom: 10rem; }
+  .vp-md-10 {
+    padding-bottom: 10rem;
+    padding-top: 10rem; }
   .vm-md-top-10 {
     margin-top: 10rem; }
   .vm-md-bottom-10 {
@@ -4823,6 +4923,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 11rem; }
   .vp-md-bottom-11 {
     padding-bottom: 11rem; }
+  .vp-md-11 {
+    padding-bottom: 11rem;
+    padding-top: 11rem; }
   .vm-md-top-11 {
     margin-top: 11rem; }
   .vm-md-bottom-11 {
@@ -4831,6 +4934,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 12rem; }
   .vp-md-bottom-12 {
     padding-bottom: 12rem; }
+  .vp-md-12 {
+    padding-bottom: 12rem;
+    padding-top: 12rem; }
   .vm-md-top-12 {
     margin-top: 12rem; }
   .vm-md-bottom-12 {
@@ -4856,6 +4962,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 1rem; }
   .vp-lg-bottom-1 {
     padding-bottom: 1rem; }
+  .vp-lg-1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem; }
   .vm-lg-top-1 {
     margin-top: 1rem; }
   .vm-lg-bottom-1 {
@@ -4864,6 +4973,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 2rem; }
   .vp-lg-bottom-2 {
     padding-bottom: 2rem; }
+  .vp-lg-2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem; }
   .vm-lg-top-2 {
     margin-top: 2rem; }
   .vm-lg-bottom-2 {
@@ -4872,6 +4984,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 3rem; }
   .vp-lg-bottom-3 {
     padding-bottom: 3rem; }
+  .vp-lg-3 {
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
   .vm-lg-top-3 {
     margin-top: 3rem; }
   .vm-lg-bottom-3 {
@@ -4880,6 +4995,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 4rem; }
   .vp-lg-bottom-4 {
     padding-bottom: 4rem; }
+  .vp-lg-4 {
+    padding-bottom: 4rem;
+    padding-top: 4rem; }
   .vm-lg-top-4 {
     margin-top: 4rem; }
   .vm-lg-bottom-4 {
@@ -4888,6 +5006,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 5rem; }
   .vp-lg-bottom-5 {
     padding-bottom: 5rem; }
+  .vp-lg-5 {
+    padding-bottom: 5rem;
+    padding-top: 5rem; }
   .vm-lg-top-5 {
     margin-top: 5rem; }
   .vm-lg-bottom-5 {
@@ -4896,6 +5017,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 6rem; }
   .vp-lg-bottom-6 {
     padding-bottom: 6rem; }
+  .vp-lg-6 {
+    padding-bottom: 6rem;
+    padding-top: 6rem; }
   .vm-lg-top-6 {
     margin-top: 6rem; }
   .vm-lg-bottom-6 {
@@ -4904,6 +5028,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 7rem; }
   .vp-lg-bottom-7 {
     padding-bottom: 7rem; }
+  .vp-lg-7 {
+    padding-bottom: 7rem;
+    padding-top: 7rem; }
   .vm-lg-top-7 {
     margin-top: 7rem; }
   .vm-lg-bottom-7 {
@@ -4912,6 +5039,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 8rem; }
   .vp-lg-bottom-8 {
     padding-bottom: 8rem; }
+  .vp-lg-8 {
+    padding-bottom: 8rem;
+    padding-top: 8rem; }
   .vm-lg-top-8 {
     margin-top: 8rem; }
   .vm-lg-bottom-8 {
@@ -4920,6 +5050,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 9rem; }
   .vp-lg-bottom-9 {
     padding-bottom: 9rem; }
+  .vp-lg-9 {
+    padding-bottom: 9rem;
+    padding-top: 9rem; }
   .vm-lg-top-9 {
     margin-top: 9rem; }
   .vm-lg-bottom-9 {
@@ -4928,6 +5061,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 10rem; }
   .vp-lg-bottom-10 {
     padding-bottom: 10rem; }
+  .vp-lg-10 {
+    padding-bottom: 10rem;
+    padding-top: 10rem; }
   .vm-lg-top-10 {
     margin-top: 10rem; }
   .vm-lg-bottom-10 {
@@ -4936,6 +5072,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 11rem; }
   .vp-lg-bottom-11 {
     padding-bottom: 11rem; }
+  .vp-lg-11 {
+    padding-bottom: 11rem;
+    padding-top: 11rem; }
   .vm-lg-top-11 {
     margin-top: 11rem; }
   .vm-lg-bottom-11 {
@@ -4944,6 +5083,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 12rem; }
   .vp-lg-bottom-12 {
     padding-bottom: 12rem; }
+  .vp-lg-12 {
+    padding-bottom: 12rem;
+    padding-top: 12rem; }
   .vm-lg-top-12 {
     margin-top: 12rem; }
   .vm-lg-bottom-12 {
@@ -4969,6 +5111,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 1rem; }
   .vp-xl-bottom-1 {
     padding-bottom: 1rem; }
+  .vp-xl-1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem; }
   .vm-xl-top-1 {
     margin-top: 1rem; }
   .vm-xl-bottom-1 {
@@ -4977,6 +5122,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 2rem; }
   .vp-xl-bottom-2 {
     padding-bottom: 2rem; }
+  .vp-xl-2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem; }
   .vm-xl-top-2 {
     margin-top: 2rem; }
   .vm-xl-bottom-2 {
@@ -4985,6 +5133,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 3rem; }
   .vp-xl-bottom-3 {
     padding-bottom: 3rem; }
+  .vp-xl-3 {
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
   .vm-xl-top-3 {
     margin-top: 3rem; }
   .vm-xl-bottom-3 {
@@ -4993,6 +5144,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 4rem; }
   .vp-xl-bottom-4 {
     padding-bottom: 4rem; }
+  .vp-xl-4 {
+    padding-bottom: 4rem;
+    padding-top: 4rem; }
   .vm-xl-top-4 {
     margin-top: 4rem; }
   .vm-xl-bottom-4 {
@@ -5001,6 +5155,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 5rem; }
   .vp-xl-bottom-5 {
     padding-bottom: 5rem; }
+  .vp-xl-5 {
+    padding-bottom: 5rem;
+    padding-top: 5rem; }
   .vm-xl-top-5 {
     margin-top: 5rem; }
   .vm-xl-bottom-5 {
@@ -5009,6 +5166,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 6rem; }
   .vp-xl-bottom-6 {
     padding-bottom: 6rem; }
+  .vp-xl-6 {
+    padding-bottom: 6rem;
+    padding-top: 6rem; }
   .vm-xl-top-6 {
     margin-top: 6rem; }
   .vm-xl-bottom-6 {
@@ -5017,6 +5177,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 7rem; }
   .vp-xl-bottom-7 {
     padding-bottom: 7rem; }
+  .vp-xl-7 {
+    padding-bottom: 7rem;
+    padding-top: 7rem; }
   .vm-xl-top-7 {
     margin-top: 7rem; }
   .vm-xl-bottom-7 {
@@ -5025,6 +5188,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 8rem; }
   .vp-xl-bottom-8 {
     padding-bottom: 8rem; }
+  .vp-xl-8 {
+    padding-bottom: 8rem;
+    padding-top: 8rem; }
   .vm-xl-top-8 {
     margin-top: 8rem; }
   .vm-xl-bottom-8 {
@@ -5033,6 +5199,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 9rem; }
   .vp-xl-bottom-9 {
     padding-bottom: 9rem; }
+  .vp-xl-9 {
+    padding-bottom: 9rem;
+    padding-top: 9rem; }
   .vm-xl-top-9 {
     margin-top: 9rem; }
   .vm-xl-bottom-9 {
@@ -5041,6 +5210,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 10rem; }
   .vp-xl-bottom-10 {
     padding-bottom: 10rem; }
+  .vp-xl-10 {
+    padding-bottom: 10rem;
+    padding-top: 10rem; }
   .vm-xl-top-10 {
     margin-top: 10rem; }
   .vm-xl-bottom-10 {
@@ -5049,6 +5221,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 11rem; }
   .vp-xl-bottom-11 {
     padding-bottom: 11rem; }
+  .vp-xl-11 {
+    padding-bottom: 11rem;
+    padding-top: 11rem; }
   .vm-xl-top-11 {
     margin-top: 11rem; }
   .vm-xl-bottom-11 {
@@ -5057,6 +5232,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     padding-top: 12rem; }
   .vp-xl-bottom-12 {
     padding-bottom: 12rem; }
+  .vp-xl-12 {
+    padding-bottom: 12rem;
+    padding-top: 12rem; }
   .vm-xl-top-12 {
     margin-top: 12rem; }
   .vm-xl-bottom-12 {
@@ -5072,19 +5250,23 @@ h6 {
 
 h1,
 .h1 {
-  font-size: 2.125rem; }
+  font-size: 2.125rem;
+  line-height: 4rem; }
 
 h2,
 .h2 {
-  font-size: 2.0625rem; }
+  font-size: 2.0625rem;
+  line-height: 3.4rem; }
 
 h3,
 .h3 {
-  font-size: 1.6875rem; }
+  font-size: 1.6875rem;
+  line-height: 1.8rem; }
 
 h4,
 .h4 {
-  font-size: 1.5625rem; }
+  font-size: 1.5625rem;
+  line-height: 1.7rem; }
 
 h5,
 .h5,
@@ -5098,8 +5280,14 @@ h6,
 .lead {
   line-height: 2; }
 
+.u-text-normal {
+  font-weight: 400; }
+
 .u-text-serif {
   font-family: "Lora", "Times New Roman", Times, serif; }
+
+.u-text-sans-serif {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
 
 .u-text-primary {
   color: #F74941 !important; }
@@ -5185,7 +5373,7 @@ body {
   background-color: #FFFEF5;
   background: -webkit-linear-gradient(90deg, #DBC999, #FFFEF5);
   background: linear-gradient(0deg, #DBC999, #FFFEF5);
-  font-family: "Lora", "Times New Roman", Times, serif; }
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
 
 *[class*="col-"] img {
   max-width: 100%; }
@@ -5258,7 +5446,8 @@ body {
   .overlay.show {
     padding-top: 8vh;
     height: 100%;
-    opacity: 1; }
+    opacity: 1;
+    z-index: 999999; }
 
 .close-btn {
   cursor: pointer;
@@ -5300,7 +5489,6 @@ svg .flower {
   -webkit-animation: rotateFlower 3s cubic-bezier(0.25, 0.25, 0, 1);
           animation: rotateFlower 3s cubic-bezier(0.25, 0.25, 0, 1);
   -webkit-transform-origin: 50% 50%;
-      -ms-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
   -webkit-transition: -webkit-transform 1s;
           transition: transform 1s; }
