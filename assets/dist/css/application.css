@@ -5374,8 +5374,8 @@ html, body {
 
 body {
   background-color: #FFFEF5;
-  background: -webkit-linear-gradient(90deg, #DBC999, #FFFEF5);
-  background: linear-gradient(0deg, #DBC999, #FFFEF5);
+  background: -webkit-linear-gradient(90deg, #FFF, #EEE);
+  background: linear-gradient(0deg, #FFF, #EEE);
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
 
 *[class*="col-"] img {
