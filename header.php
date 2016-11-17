@@ -23,7 +23,7 @@
 	<meta name="og:image" content="/assets/dist/img/og-share.jpg">
 	<meta property="og:title" content="Folky Strokes">
 	<meta property="og:site_name" content="Folky Strokes">
-	<meta property="og:type" content="business">
+	<meta property="og:type" content="website">
 	<meta property="og:description" content="">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css" media="all">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
